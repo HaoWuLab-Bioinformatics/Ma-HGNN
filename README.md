@@ -3,7 +3,7 @@
 A Hypergraph Neural Network for dealing with Multimodal Data
 
 ## Framework
-![image](https://github.com/HaoWuLab-Bioinformatics/Ma-HGNN-/model.jpg)
+![image](https://github.com/HaoWuLab-Bioinformatics/Ma-HGNN-/blob/main/model.jpg)
 
 ## Overview
 The folder "dhg" contains the code for constructing a hypergraph.
