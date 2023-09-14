@@ -26,5 +26,7 @@ scikit-learn
 See docs/requirements.txt for all detailed libraries.  
 
 ## Usage
-run the script as follows to compile and run Ma-HGNN+: 
+run the script as follows to compile and run Ma-HGNN+:  
+‘’‘
 'python main.py'
+’‘’
