@@ -5,7 +5,7 @@ import copy
 import torch
 import torch.optim as optim
 import pprint as pp
-import hypergraph_utils as hgut
+from dhg.nn.convs.hypergraphs import hypergraph_utils as hgut
 from config import get_config
 from sklearn.model_selection import train_test_split
 import pandas as pd
@@ -34,7 +34,7 @@ def load_st_construct_H(
                             ):
 
     if True:
-        student_feature = pd.read_csv('data类别大于0fin.csv', encoding='ISO-8859-1')
+        student_feature = pd.read_csv('data.csv', encoding='ISO-8859-1')
 
         fts = student_feature.iloc[0:500, 0:7].astype(np.float32).values  # 特征
         lbls = student_feature.iloc[0:500, 7].values  # 标签
