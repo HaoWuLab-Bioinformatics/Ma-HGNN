@@ -1,6 +1,6 @@
 # Ma-HGNN+
 
-A Hypergraph Neural Network for depth analysis of Multimodal Data
+A Hypergraph Neural Network for Depth Analysis of Multimodal Data
 
 ## Framework
 ![image](https://github.com/HaoWuLab-Bioinformatics/Ma-HGNN-/blob/main/model.jpg)
